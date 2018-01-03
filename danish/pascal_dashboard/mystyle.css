@@ -57,7 +57,7 @@ span.name{font-weight: bold;font-size: 13px;white-space: nowrap;}
 .badge-default{background: #D2527F;line-height: inherit;border:1px solid white;}
 .badge-default2{background: #019875;line-height: inherit;border:1px solid white;}
 .badge-default3{background: #26A65B;line-height: inherit;border:1px solid white;}
-span.mybadge{line-height: inherit;border: 1px solid white;position: absolute;top: -17px;right:214px;}
+span.mybadge{line-height: inherit;border: 1px solid white;position: absolute;top: -17px;right:180px;}
 .fa-book{color:#1E824C;font-weight: normal;}
 .fa-times-circle{color:#F62459;font-weight: bolder;}
 
