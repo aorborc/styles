@@ -2,7 +2,7 @@
 
 git init
 git add *
-git commit -m `date +%Y-%m-%d`
+git commit -m `date +%d-%m-%Y`
 git push
 #expect "password"
 #send "MyPassword\r"
