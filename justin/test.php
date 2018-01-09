@@ -5,3 +5,4 @@ $id = $_GET['id'];
 echo "ID is >>>>>>>>>> ".$id."\n";
 
 ?>
+nvidnvindivndivnidn
