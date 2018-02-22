@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	    <!-- lato fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+        <!--  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Work Sans" /> -->
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto Slab" />
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merienda One" />
+
+	    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+	    <!-- font-awesome CSS -->
+
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!-- jQuery library -->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row mt-3">
+				<div class="col-md-12 col-12">
+					<div class="card parentCard">
+						<div class="card-header parentCardHeader">
+							<div class="row">
+								<div class="col-md-12 col-12 text-center">
+									<h6 class="mb-0">2017-2018</h6>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-12 col-12">
+									<div class="card">
+										<div class="card-header">
+											<div class="row">
+												<div class="col-md-12 col-12">
+													<h6 class="text-muted">Yearly Details</h6>
+												</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="d-flex flex-wrap flex-row border border-bottom-0">
+														<div class="col-2 p-2 head border-right-1">Type</div>
+														<div class="col-2 p-2 head border-right-1">Budget</div>
+														<div class="col-2 p-2 head border-right-1">Actual</div>
+														<div class="col-2 p-2 head border-right-1">Difference ($)</div>
+														<div class="col-2 p-2 head border-right-1">% of Budget</div>
+														<div class="col-2 p-2 head">% of Actual</div>
+													</div>
+													<div class="d-flex flex-wrap flex-row border border-bottom-0">
+														<div class="col-2 p-2 border-right-1">
+															<label for="row_01"><b><a class="income" style="color:#59A985">Income</a></b></label>
+														</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+																</div>
+														</div>
+														<div class="col-2 p-2 data ">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+																</div>
+														</div>
+													</div>
+													<div class="d-flex flex-row flex-wrap">
+									                    <div class="col-md-12 col-12 p-0">
+									                        <input id="row_01" type="checkbox">
+									                        <div class="child-01 m-0">
+									                            <div class="card border-income">
+									                            	<div class="card-header">
+									                            		<div class="row">
+									                            			<div class="col-md-12 col-12 text-center">
+									                            				<h6 class="income mb-0">Income Details</h6>
+									                            			</div>
+									                            		</div>
+									                            	</div>
+									                            	<div class="card-body">
+																		<div class="row">
+																			<div class="col-md-12 col-12">
+																				<table class="table table-bordered mb-0">
+																					<thead>
+																						<tr>
+																							<th class="border-bottom-0 text-success">Name</th>
+																							<th class="border-bottom-0 text-success">Description</th>
+																							<th class="border-bottom-0 bg-budget">Budget</th>
+																							<th class="border-bottom-0 bg-actual">Actual</th>
+																							<th class="border-bottom-0">Difference</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<tr>
+																							<td>Abdul</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Justin</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Peter</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																		</div>
+																	</div>
+									                            </div>
+									                        </div>
+									                    </div>
+									                </div>
+													<div class="d-flex flex-wrap flex-row border border-bottom-0">
+														<div class="col-2 p-2 border-right-1">
+															<label for="row_02"><b><a class="staff" style="color:#F36B6B">Staff</a></b></label>
+														</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+																</div>
+															</div>
+														</div>
+														<div class="col-2 p-2 data">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="d-flex flex-row flex-wrap">
+									                    <div class="col-md-12 col-12 p-0">
+									                        <input id="row_02" type="checkbox">
+									                        <div class="child-02 m-0">
+									                            <div class="card border-staff">
+									                            	<div class="card-header border-bottom-0">
+									                            		<div class="row">
+									                            			<div class="col-md-12 col-12 text-center">
+									                            				<h6 class="staff mb-0">Staff Details</h6>
+									                            			</div>
+									                            		</div>
+									                            	</div>
+									                            	<div class="card-body">
+									                            		<div class="row">
+																			<div class="col-md-12 col-12">
+																				<table class="table table-bordered mb-0">
+																					<thead>
+																						<tr>
+																							<th class="border-bottom-0 staff">Name</th>
+																							<th class="border-bottom-0 staff">Description</th>
+																							<th class="border-bottom-0 bg-budget">Budget</th>
+																							<th class="border-bottom-0 bg-actual">Actual</th>
+																							<th class="border-bottom-0">Difference</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<tr>
+																							<td>Abdul</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Justin</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Peter</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																		</div>
+									                            	</div>
+									                            </div>
+									                        </div>
+									                    </div>
+									                </div>
+													<div class="d-flex flex-wrap flex-row border border-bottom-0">
+														<div class="col-2 p-2 border-right-1">
+															<label for="row_03"><b><a class="expenses" style="color:#2794EB;">Expenses</a></b></label>
+														</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+																</div>
+															</div>
+														</div>
+														<div class="col-2 p-2 data">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="d-flex flex-row flex-wrap">
+									                    <div class="col-md-12 col-12 p-0">
+									                        <input id="row_03" type="checkbox">
+									                        <div class="child-03 m-0">
+									                            <div class="card border-expenses">
+									                            	<div class="card-header  border-bottom-0">
+									                            		<div class="row">
+									                            			<div class="col-md-12 col-12 text-center">
+									                            				<h6 class="mb-0 expenses">Expenses Details</h6>
+									                            			</div>
+									                            		</div>
+									                            	</div>
+									                            	<div class="card-body">
+									                            		<div class="row">
+																			<div class="col-md-12 col-12">
+																				<table class="table table-bordered mb-0">
+																					<thead>
+																						<tr>
+																							<th class="border-bottom-0 expenses">Name</th>
+																							<th class="border-bottom-0 expenses">Description</th>
+																							<th class="border-bottom-0 bg-budget">Budget</th>
+																							<th class="border-bottom-0 bg-actual">Actual</th>
+																							<th class="border-bottom-0">Difference</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<tr>
+																							<td>Abdul</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Justin</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																						<tr>
+																							<td>Peter</td>
+																							<td>Description goes here</td>
+																							<td class="bg-budget">$ 100</td>
+																							<td class="bg-actual">$ 100</td>
+																							<td>$ 0</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																		</div>
+									                            	</div>
+									                            </div>
+									                        </div>
+									                    </div>
+									                </div>
+													<div class="d-flex flex-wrap flex-row border">
+														<div class="col-2 p-2 border-right-1 data">Grand Total</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 100</div>
+														<div class="col-2 p-2 data border-right-1">$ 300</div>
+														<div class="col-2 p-2 data border-right-1">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+																</div>
+															</div>
+														</div>
+														<div class="col-2 p-2 data">
+															<div class="progress">
+																<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-12">
+									<div class="ac">
+        								<input  class="ac-input-1" id="ac-1" name="ac-1" type="checkbox" />
+						               	<label class="ac-label-1 mb-0" for="ac-1"><span style="color:#17a2b8"></span></label>
+						                <article class="ac-text-1">
+								            <div class="row mt-3">
+												<div class="col-md-12 col-12">
+													<div class="btn-group w-100" role="group" aria-label="Basic example">
+														<a class="w-25" href="#"><button type="button" class="btn btn-secondary w-100 rounded-0">Q-1</button></a>
+														<a class="w-25" href="#"><button type="button" class="btn btn-secondary w-100 rounded-0">Q-2</button></a>
+														<a class="w-25" href="#"><button type="button" class="btn btn-secondary w-100 rounded-0">Q-3</button></a>
+														<a class="w-25" href="#"><button type="button" class="btn btn-secondary w-100 rounded-0">Q-4</button></a>
+													</div>
+												</div>
+											</div>
+								        </article>
+							        </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<style>
+		input#ac-1:checked ~ div.card-body .hide{display:none;}
+		body{background:#e6ebf1;color:#868e96;font-size:13px;font-family: Roboto Slab;}
+		.subtableHead{font-weight:bold;}
+		.data{color:#868e96;}
+		.capital{text-transform: uppercase;}
+		.bg-budget{background:#1FAD9F;color:white;}
+		.bg-actual{background:#07689F;color:white;}
+		.income{color:#59A985;}
+		.border-income{border:1px solid #59A985;}
+		.staff{color:#F36B6B;}
+		.border-staff{border:1px solid #F36B6B;}
+		.expenses{color:#2794EB}
+		.border-expenses{border:1px solid #2794EB}
+		div.parentCardHeader{color:white;background:#13873C;}
+        h6.pageTitle{text-transform: uppercase;font-size:15px;}
+        h5.pageTitle{font-size:13px;text-transform: uppercase;}
+        h6.cardHeaderTitle{font-size: 12px;}
+        /*div.subCard{border:1px solid #56A7A7;}*/
+        div.subCardHeader{background:#B72A67;color:#fff;border-bottom:none;}
+        .bg-green{background:#27B1BE;color:white;}
+        .bg-green1{background:#1FAD9F;color:white;}
+        /*table.info_table thead tr th{text-align: center;font-size: 13px;}*/
+        /*table.info_table tbody tr td{font-size: 12px;border-right:none;}
+        table.info_table tbody tr th{font-size: 12px;text-transform: uppercase;}
+        .table-bordered td, .table-bordered th {border-bottom-width: 1px;border-right: none;border:none;border-bottom: 1px solid #eceeef;}*/
+        /*.table thead th{border-bottom: none;}*/
+        div.parentCard{box-shadow: 0 0 10px;}
+        span.edit{font-size:12px;margin-top: 6px;}
+        span.addjob_btn{font-size: 10px;color:white;}
+        span.addjob_btn:hover{background:white;color:#333;cursor: pointer;}
+
+        .bold{font-weight:bold;}
+		.actualHeading{color:#3F7B70;font-weight:bold;}
+		.budgetHeading{color:#A55540;font-weight:bold;}
+		.diffHeading{color:#511E78;font-weight:bold;}
+		table.myTable tr.secondRow th{border-bottom:0}
+		.income{color:#59A985;}
+		.border-income{border:1px solid #59A985;}
+		.staff{color:#F36B6B;}
+		.border-staff{border:1px solid #F36B6B;}
+		.expenses{color:#2794EB}
+		.border-expenses{border:1px solid #2794EB}
+		.bg-actual {background: #07689F;color: white;}
+		.bg-budget {background: #1FAD9F;color: white;}
+		.janBackground{background: }
+		.month_bg{background:#414A50;color:white;}
+		.grandTotal{color:#6E4B1F;}
+		.bg-total{background:#79BD8F;color:#fff;}
+
+        .border-right-1{border-right:1px solid #e9ecef;}
+        .border-left-1{border-left:1px solid #e9ecef;}
+        .border-top-1{border-top:1px solid #e9ecef;}
+        .border-bottom-1{border-bottom:1px solid #e9ecef;}
+
+        /*.border-right-1-blue{border-right:1px solid #17a2b8!important;}*/
+        .border-right-1-green{border-right:1px solid #28a745!important;}
+        .border-right-1-blue{border-right:1px solid #e9ecef!important;}
+
+        div.month{background:#dd6a9c;color:white;border-right:1px solid white;text-align: center;}
+        div.head{background:#3498DB;color:white;font-size: 12px;}
+        div.data{font-size:12px;}
+        div.heading{color:#E6E6E6;font-size: 20px;}
+        div.q_oneCardHeader{background:#9E3668;}
+        div.quarters{color:white;}
+        div.q_twoCardHeader{background:#1FAB89;}
+        div.q_threeCardHeader{background:#98651E;}
+        div.q_fourCardHeader{background:#B43144;}
+
+        div.january, .february{background: grey}
+
+        div.child 
+        {
+	      	display: none;
+	      	margin: 10px;
+
+	    }
+        div.child-01 {
+          	display: none;
+          	margin: 10px;
+
+        }
+        div.child-02 {
+          	display: none;
+          	margin: 10px;
+
+        }
+        div.child-03 {
+          	display: none;
+          	margin: 10px;
+        }
+        input[type=checkbox] {
+          	display: none;
+        }
+        input[type=checkbox]:checked + div.child {
+          	display: block;
+        }
+        input#row_01:checked + div.child-01 {
+          	display: block;
+        }
+        input#row_02:checked + div.child-02 {
+          	display: block;
+        }
+        input#row_03:checked + div.child-03 {
+          	display: block;
+        }
+        label {
+          	cursor: pointer;
+          	top: 0;
+          	left: 0;
+          	bottom: 0;
+          	width:100%;
+          	z-index: 2;
+          	margin-bottom: 0;
+        }
+
+
+        @media only screen and (max-width:767px) 
+        {
+            table.info_table 
+            {
+                display:block;
+                width: 100%;
+                overflow-x: auto;
+            }
+        }
+
+        .ac-label-1 {
+          	font-weight: 700;
+          	position:relative;
+         	/* padding: .5em 1em;*/
+         	/* margin-bottom: .5em;*/
+          	display: block;
+          	cursor: pointer;
+          	background-color:transparent;
+          	margin-top:-330px;
+          	transition: background-color .15s ease-in-out;
+          	font-size:16px;
+          	float:right;
+          	width:1%;
+          	left:23px;
+          	/*border: 1px solid red;
+    	  	padding: 10px;*/
+        }
+        .ac-label-1:after, .ac-input-1:checked + .ac-label-1:after {
+          content: "+";
+          position: absolute;
+          display: block;
+          right: 0;
+          top: -14px;
+          width: 2em;
+          height: 100%;
+          line-height: 2.25em;
+          text-align: center;
+          background-color:transparent;
+          transition: background-color 2s ease-in-out;
+          color:white;
+        }
+        .ac-label-1:hover:after, .ac-input-1:checked + .ac-label-1:after {
+          background-color:transparent;
+        }
+        .ac-input-1:checked + .ac-label-1:after {
+          content: "-";
+          color:white;
+        }        
+        .ac-input-1 {
+          display: none;
+        }
+        .ac-text-1, .ac-sub-text {
+          opacity: 0;
+          height: 0;
+          /*margin-bottom: .5em;*/
+          transition: opacity .5s ease-in-out;
+          overflow: hidden;
+        }
+        .ac-input-1:checked ~ .ac-text-1, .ac-sub .ac-input-1:checked ~ .ac-sub-text { 
+          opacity: 1;
+          height: auto;
+        }
+        .ac-sub .ac-label-1 {
+         /* background:#222831;*/
+          margin-bottom: 5px;
+          font-weight: 600;
+          padding: .4em 2em;
+          /*margin-bottom: 0;*/
+          font-size:13px;
+          color:#636c72;
+          font-weight:normal;
+        }
+
+        
+
+        .ac-sub .ac-label-1:checked {
+          background: none;
+          border-bottom: 1px solid whitesmoke;
+        }
+
+        
+		a:hover {color: rgba(0,0,0,.2)}
+		* {margin:0;padding:0;border: 0 none;position: relative;}
+		label:focus{outline:none;}
+		@media only screen and (max-width: 567px) 
+		{
+		    div.head ,div.data
+		    {
+		        font-size: 11px;
+		    }
+		    label a{font-size: 11px;}
+		}
+		label.months{font-family:Merienda One;display: block;font-size: 3rem;line-height: 5rem;z-index: 2;}
+
+	</style>
+</html>
