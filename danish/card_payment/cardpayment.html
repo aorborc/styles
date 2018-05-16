@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+        <!-- lato fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto Slab" />
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+        <!-- font-awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-md-12 col-12">
+                    <div class="card paycard">
+                        <div class="card-header">
+                            <div class="row align-items-center">
+                                <div class="col-md-8 col-12 text-md-left text-center">
+                                    <h6 class="cardHeaderText mb-0">eWay Payment</h6>
+                                </div>
+                                <div class="col-md-4 col-12 text-md-right text-center">
+                                    <img  class="logo" src="http://www.aorborc.com/media/themes/impulso/img/logo.png" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body MycardBody">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 col-sm-12 col-12 d-flex justify-content-start justify-content-md-center">
+                                    <form>
+                                        <div class="control-group">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <img class="cards masterCard mr-2" src="https://avatars.githubusercontent.com/u/1653148?size=100">
+                                                <label class="control control--radio mb-0">
+                                                    <input class="cardType" type="radio" name="radio" value="https://avatars.githubusercontent.com/u/1653148?size=100"/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <img class="cards visaCard mr-2" src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-3/256/payment-card-icon.png">
+                                                <label class="control control--radio mb-0">
+                                                    <input  class="cardType" type="radio" name="radio"  value="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-3/256/payment-card-icon.png" checked/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <img class="cards visaCard mr-2" src="https://www.mastercard.us/etc/clientlibs/consumer-product/images/locators/maestro.png">
+                                                <label class="control control--radio mb-0">
+                                                    <input  class="cardType" type="radio" name="radio" value="https://www.mastercard.us/etc/clientlibs/consumer-product/images/locators/maestro.png"/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <img class="cards visaCard mr-2" src="https://www.federalbank.co.in/image/journal/article?img_id=10218158&t=1486726357419">
+                                                <label class="control control--radio mb-0">
+                                                    <input  class="cardType" type="radio" name="radio" value="https://www.federalbank.co.in/image/journal/article?img_id=10218158&t=1486726357419"/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
+                                            </div>
+                                           <div class="d-flex flex-row align-items-center">
+                                                <img class="cards visaCard mr-2" src="https://bamigo.com/media/wysiwyg/CMS_Pages/Payment/Paypal.png">
+                                                <label class="control control--radio mb-0">
+                                                    <input  class="cardType" type="radio" name="radio" value="https://bamigo.com/media/wysiwyg/CMS_Pages/Payment/Paypal.png"/>
+                                                    <div class="control__indicator"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form> 
+                                </div>
+                                <div class="col-md-8 col-sm-12 col-12">
+                                    <form>
+                                        <div class="d-flex flex-row align-items-center">
+                                            <h6 class="paywith">Pay with</h6>
+                                            <img id="myImg" class="cards visaCard mr-2" id="pay_with_image" src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-3/256/payment-card-icon.png">
+                                        </div>
+                                        <hr>
+                                        <div>
+                                            <div class="holderName">
+                                                <span class="asteristic">*</span>
+                                                <span class="hilderLable">Cardholder Name :</span><br>
+                                                <input class="ml-1 mt-2 w-53 p-2" type="text" name="Name" placeholder="Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3">
+                                            <div class="cardNo">
+                                                <span class="asteristic">*</span>
+                                                <span class="hilderLable">Card No :</span><br>
+                                                <input id="card_no" class="ml-1 mt-2 w-53 p-2" type="text" name="cardno" placeholder="XXXX XXXX XXXX XXXXX" maxlength="19"  required>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row mt-3">
+                                            <div class="expiry">
+                                                <span class="asteristic">*</span>
+                                                <span class="hilderLable">Expiry Date :</span><br>
+                                                <select   required class="select mt-2 p-2">
+                                                    <option value="">Select Month</option>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                                <span class="divider ml-2 mr-2">/</span>
+                                                <select required class="select p-2">
+                                                    <option value="">Select Year</option>
+                                                    <option value="2018">2018</option>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                    <option value="2023">2023</option>
+                                                    <option value="2024">2024</option>
+                                                    <option value="2025">2025</option>
+                                                    <option value="2026">2026</option>
+                                                    <option value="2027">2027</option>
+                                                    <option value="2028">2028</option>
+                                                    <option value="2029">2029</option>
+                                                    <option value="2030">2030</option>
+                                                    <option value="2031">2031</option>
+                                                    <option value="2032">2032</option>
+                                                    <option value="2033">2033</option>
+                                                    <option value="2034">2034</option>
+                                                    <option value="2035">2035</option>
+                                                    <option value="2036">2036</option>
+                                                    <option value="2037">2037</option>
+                                                    <option value="2038">2038</option>
+                                                    <option value="2039">2039</option>
+                                                    <option value="2040">2040</option>
+                                                    <option value="2041">2041</option>
+                                                    <option value="2042">2042</option>
+                                                    <option value="2043">2043</option>
+                                                    <option value="2044">2044</option>
+                                                    <option value="2045">2045</option>
+                                                    <option value="2046">2046</option>
+                                                    <option value="2047">2047</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row mt-3">
+                                            <div class="cvv">
+                                                <span class="asteristic">*</span>
+                                                <span class="hilderLable">CVV No :</span><br>
+                                                <input class="ml-1 mt-2 w-25 p-2" type="password" name="cvv" placeholder="CVV" maxlength="3"  required>
+                                                <img class="cvvcard visaCard mr-2" src="https://png.icons8.com/color/100/card-verification-value.png">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row mt-4 text-center">
+                                            <button type="submit" class="btn btn-sm btn-outline-info btn-block paybtn p-2">Pay Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById('card_no').addEventListener('input', function (e) 
+            {
+                e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
+                 // alert("hi");
+            });
+            $(document).ready(function(){
+                $('.cardType').on({
+                    'click': function(){
+                        console.log($(this).val());
+                        var image_url=$(this).val();
+                        $('#myImg').attr('src',image_url);
+                    }
+                });
+            })
+        </script>
+    </body>
+    <style>
+        body{font-family: Roboto Slab;color:#333;font-size: 13px;}
+        img.cards{height:58px;width: 58px;}
+        span.card_lable-left{color:#B04D5D;}
+        span.asteristic{color:red;font-size: 8px;}
+        .w-53{width:53%!important}
+        select.select{border-radius:0px;-webkit-appearance: none;margin-left:5px;border:1px solid #27B1BE;}
+        button.paybtn{width:53%;}
+        div.paycard{border:1px solid #25C177;}
+        h6.cardHeaderText{color:#045757;}
+        span.hilderLable{color:#2E89BA;}
+        input[type=text]{border:1px solid #27B1BE;}
+        input[type=password]{border:1px solid #27B1BE;}
+        img.cvvcard{height: 30px;width: 30px;}
+        input:focus { 
+            outline: none !important;
+            border-color: #719ECE;
+            box-shadow: 0 0 10px #719ECE;
+        }
+        select:focus { 
+            outline: none !important;
+            border-color: #719ECE;
+            box-shadow: 0 0 10px #719ECE;
+        }
+        div.MycardBody{background: #F2F9F1}
+        img.logo{height:40px;}
+
+        /*.control-group {
+          display: inline-block;
+          vertical-align: top;
+          background: #fff;
+          text-align: left;
+          box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+          padding: 30px;
+          width: 200px;
+          height: 210px;
+          margin: 10px;
+        }*/
+        .control {
+          display: block;
+          position: relative;
+          padding-left: 30px;
+          /*margin-bottom: 15px;*/
+          cursor: pointer;
+          font-size: 15px;
+        }
+        .control input {
+          position: absolute;
+          z-index: -1;
+          opacity: 0;
+        }
+        .control__indicator {
+          position: absolute;
+          top: -10px;
+          left: 0;
+          height: 20px;
+          width: 20px;
+          background: #9A9B94;
+        }
+        .control--radio .control__indicator {
+          border-radius: 50%;
+        }
+        .control:hover input ~ .control__indicator,
+        .control input:focus ~ .control__indicator {
+          background: #ccc;
+        }
+        .control input:checked ~ .control__indicator {
+          background: #2aa1c0;
+        }
+        .control:hover input:not([disabled]):checked ~ .control__indicator,
+        .control input:checked:focus ~ .control__indicator {
+          background: #0e647d;
+        }
+        .control input:disabled ~ .control__indicator {
+          background: #e6e6e6;
+          opacity: 0.6;
+          pointer-events: none;
+        }
+        .control__indicator:after {
+          content: '';
+          position: absolute;
+          display: none;
+        }
+        .control input:checked ~ .control__indicator:after {
+          display: block;
+        }
+        .control--checkbox .control__indicator:after {
+          left: 8px;
+          top: 4px;
+          width: 3px;
+          height: 8px;
+          border: solid #fff;
+          border-width: 0 2px 2px 0;
+          transform: rotate(45deg);
+        }
+        .control--checkbox input:disabled ~ .control__indicator:after {
+          border-color: #7b7b7b;
+        }
+        .control--radio .control__indicator:after {
+          left: 7px;
+          top: 7px;
+          height: 6px;
+          width: 6px;
+          border-radius: 50%;
+          background: #fff;
+        }
+        .control--radio input:disabled ~ .control__indicator:after {
+          background: #7b7b7b;
+        }
+    
+        @media only screen and (max-width: 567px) 
+        {
+            img.logo{margin-top:15px;}
+            button.paybtn{width: 100%;}
+        }
+    </style>
+</html>
